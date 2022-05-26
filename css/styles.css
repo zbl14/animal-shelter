@@ -1,17 +1,22 @@
+html, body {
+  height: 100%;
+}
+
 .column {
   display: block;
   width: 15%;
+  height: 250px;
   float: left;
   margin: 10px;
   border: 2px solid black;
-  padding: 4px;
-  background-color: bisque;
+  padding: 5px;
+  background-color: bisque;opacity: 0.9;
 }
 
 .centered div img {
   margin: auto;
-  width: 70%;
-  height: auto;
+  width: auto;
+  height: 40%;
   display: block;
 }
 
@@ -25,5 +30,22 @@
   background-image: url(https://icanimalcenter.org/ImageRepository/Document?documentID=91);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2%;
+  padding-bottom: 50px;
+  overflow: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#footer {
+  color: white;
+  background-color: black;
+  position: bottom;
+  height: 70px;
+  clear:both
 }
