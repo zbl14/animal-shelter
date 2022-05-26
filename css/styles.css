@@ -1,0 +1,13 @@
+.column{
+  width: 15%;
+  float: left;
+  margin: auto;
+  border: 2px black;
+  padding: 4px;
+  background-color: bisque;
+}
+
+.centered img {
+  width: 50%;
+  height: auto;
+}
