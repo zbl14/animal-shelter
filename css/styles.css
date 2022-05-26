@@ -45,7 +45,8 @@ h2 {
 #footer {
   color: white;
   background-color: black;
-  position: bottom;
+  position: relative;
+  padding-left: 20px;
   height: 70px;
   clear:both
 }
