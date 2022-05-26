@@ -10,14 +10,20 @@
 
 .centered div img {
   margin: auto;
-  width: 50%;
+  width: 70%;
   height: auto;
   display: block;
 }
 
-.important {
-  font-style: bold;
-  position: absolute;
-  bottom: 10px;
-  width: 50%;
+.sidebar {
+  width: 10%;
+  float: right;
+  background-color: lightgoldenrodyellow; opacity: 0.7;
+}
+
+.background {
+  background-image: url(https://icanimalcenter.org/ImageRepository/Document?documentID=91);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2%;
 }
