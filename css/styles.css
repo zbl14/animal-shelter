@@ -18,6 +18,9 @@ html, body {
   width: auto;
   height: 40%;
   display: block;
+  border-radius: 50%;
+  box-shadow: gray 0 0 10px;
+  border: 1px solid white ;
 }
 
 .sidebar {
@@ -30,8 +33,9 @@ html, body {
   background-image: url(https://icanimalcenter.org/ImageRepository/Document?documentID=91);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 50px;
   overflow: auto;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -42,11 +46,41 @@ h2 {
   text-align: center;
 }
 
+#header {
+  padding: 20px;
+  text-align: center;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header li {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+.header li:first-child {
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #footer {
   color: white;
   background-color: black;
+  text-align: center;
   position: relative;
   padding-left: 20px;
+  margin: 200px 10px 10px 10px;
   height: 70px;
   clear:both
 }
